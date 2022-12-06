@@ -1,4 +1,4 @@
-package br.com.americanas.ada.primeiro.modulo;
+package br.com.americanas.ada.primeiro.modulo.aula01;
 
 import java.util.Scanner;
 

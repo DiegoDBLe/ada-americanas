@@ -1,4 +1,4 @@
-package br.com.americanas.ada.primeiro.modulo;
+package br.com.americanas.ada.primeiro.modulo.aula01;
 
 public class ExecricioAula01 {
 
@@ -16,8 +16,5 @@ public class ExecricioAula01 {
 		System.out.println("notaFloat: " + notaFloat);
 		System.out.println("notaInt: " + notaInt);
 		
-		if(notaDouble != notaDouble) {
-			System.out.println("Não é um Double.");
-		}
 	}
 }
