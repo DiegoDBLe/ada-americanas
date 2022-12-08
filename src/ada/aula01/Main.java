@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		ExecricioAula01.imprimindoValores();
+		ExecricioAula01ImprimindoValores.imprimindoValores();
 		
-		ExercicioConversorDeTemperaturaAula01.temperatura();
+		ExercicioAula01ConversorDeTemperatura.temperatura();
 	}
 
 }

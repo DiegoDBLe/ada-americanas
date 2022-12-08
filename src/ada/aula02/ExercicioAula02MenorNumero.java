@@ -2,7 +2,7 @@ package ada.aula02;
 
 import java.util.Scanner;
 
-public class Exercicio02 {
+public class ExercicioAula02MenorNumero {
 	
 	public static void menorNumero() {
 		

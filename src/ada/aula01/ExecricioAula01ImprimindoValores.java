@@ -1,6 +1,6 @@
 package ada.aula01;
 
-public class ExecricioAula01 {
+public class ExecricioAula01ImprimindoValores {
 
 //	Declarar uma varivael float , double, string, int e booleane e imprimir os valores de cada.
 	

@@ -3,7 +3,7 @@ package ada.aula01;
 import java.util.Scanner;
 
 // - Criar um programa em java que converta a temperatura de Fahrenheit para graus Celsius (clássico):
-public class ExercicioConversorDeTemperaturaAula01 {
+public class ExercicioAula01ConversorDeTemperatura {
 	
 	public static void temperatura() {
 		

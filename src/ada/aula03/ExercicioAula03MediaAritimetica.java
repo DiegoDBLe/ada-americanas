@@ -2,7 +2,7 @@ package ada.aula03;
 
 import java.util.Scanner;
 
-public class MediaAritimetica {
+public class ExercicioAula03MediaAritimetica {
 
 	//public static void main(String[] args) {
 
