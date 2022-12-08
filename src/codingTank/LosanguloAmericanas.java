@@ -1,4 +1,4 @@
-package br.com.americanas.ada.codingTank;
+package codingTank;
 
 import java.util.Scanner;
 

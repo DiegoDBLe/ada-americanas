@@ -1,4 +1,4 @@
-package br.com.americanas.ada.codingTank;
+package codingTank;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class ArrayAula04 {
         System.out.println("Quantas idades você deseja informar: ");
         int[] arrayIdades = new int[scanner.nextInt()];
 
-        for (int i = 0; i <= arrayIdades.length; i++){
+        for (int i = 0; i < arrayIdades.length; i++){
             System.out.println("Informe a " + (i + 1) + " idade: ");
             arrayIdades[i] = scanner.nextInt();
         }
