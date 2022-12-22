@@ -41,6 +41,15 @@ public class TesteConcessionaria {
 		
 		System.out.println();
 		System.out.println(moto1);
+		System.out.println();
+		
+		CarroComConstrutor carroConstrutor = new CarroComConstrutor("HRV", "Honda");
+		carroConstrutor.ligar();
+		carroConstrutor.acelerar(80);
+		carroConstrutor.desacelerar(20);
+		carroConstrutor.parar();
+		
+		
 		
 	}
 
