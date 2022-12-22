@@ -14,7 +14,12 @@ public class TesteConcessionaria {
 		carro1.anoDeFabricaao = 2022;
 		carro1.preco = 370000.00;
 		
-		System.out.println(carro1);
+		System.out.println(carro1.obterVelocidadeMaxima());
+		carro1.ligar();
+		carro1.acelerar(100);
+		carro1.desacelerar(20);
+		carro1.desacelerar(20);
+		carro1.parar();
 		
 		Moto moto1 = new Moto();
 		
@@ -26,6 +31,13 @@ public class TesteConcessionaria {
 		moto1.numeroDeRodas = 2;
 		moto1.anoDeFabricaao = 2022;
 		moto1.preco = 7000.00;
+		
+		System.out.println(moto1.obterVelocidadeMaxima());
+		moto1.ligar();
+		moto1.acelerar(100);
+		moto1.desacelerar(20);
+		moto1.desacelerar(20);
+		moto1.parar();
 		
 		System.out.println();
 		System.out.println(moto1);
