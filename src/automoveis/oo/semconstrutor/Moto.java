@@ -1,7 +1,8 @@
-package automoveis.oo;
+package automoveis.oo.semconstrutor;
 
-public class CarroComConstrutor{
-
+public class Moto{
+	
+	
 	public String motor;
 	public int numeroDeRodas;
 	public int anoDeFabricaao;
@@ -13,17 +14,12 @@ public class CarroComConstrutor{
 	public int velocidadeMaxima;
 	public int velocidadeAtual;
 	
-	public CarroComConstrutor(String modelo, String marca){
-		this.modelo = modelo;
-		this.marca = marca;
-	}
-
 	public int obterVelocidadeMaxima(){
 		return velocidadeMaxima;
 	}
 	
 	public void ligar() {
-		System.out.println("Carro ligado...0Km/h");
+		System.out.println("Moto ligada...0Km/h");
 	}
 	
 	public void acelerar(int aumentoDeVelocidade) {
@@ -39,15 +35,14 @@ public class CarroComConstrutor{
 	
 	public void parar() {
 		desacelerar(velocidadeAtual);
-		System.out.println("Carro Parado..." + velocidadeAtual +  "Km/h");
+		System.out.println("Moto Parada..." + velocidadeAtual +  "Km/h");
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Motor: " + this.motor + "\nNúmero de rodas: " + this.numeroDeRodas + "\nAno de Fabricação: "
 				+ this.anoDeFabricaao + "\nCor: " + this.cor + "\nMarca: " + this.marca + "\nModelo: "
 				+ this.modelo + "\nCombustivel: " + this.estiloDeCombustivel + "\nPreço R$ " + this.preco 
-				+ "\nVelocidade Máxima: "  + this.velocidadeMaxima;
+				+ "\\nVelocidade Máxima: " + this.velocidadeMaxima;
 	}
-
 }

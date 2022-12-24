@@ -1,6 +1,6 @@
-package automoveis.oo;
+package automoveis.oo.construtor;
 
-public class Carro{
+public class CarroComConstrutor{
 
 	public String motor;
 	public int numeroDeRodas;
@@ -12,6 +12,11 @@ public class Carro{
 	public double preco;
 	public int velocidadeMaxima;
 	public int velocidadeAtual;
+	
+	public CarroComConstrutor(String modelo, String marca){
+		this.modelo = modelo;
+		this.marca = marca;
+	}
 
 	public int obterVelocidadeMaxima(){
 		return velocidadeMaxima;

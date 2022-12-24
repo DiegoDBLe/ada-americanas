@@ -1,5 +1,9 @@
 package automoveis.oo;
 
+import automoveis.oo.construtor.CarroComConstrutor;
+import automoveis.oo.construtor.MotoComConstrutor;
+import automoveis.oo.semconstrutor.Carro;
+
 public class TesteConcessionaria {
 	
 	public static void main(String[] args) {
@@ -21,10 +25,8 @@ public class TesteConcessionaria {
 		carro1.desacelerar(20);
 		carro1.parar();
 		
-		Moto moto1 = new Moto();
+		MotoComConstrutor moto1 = new MotoComConstrutor("CG 150", "Preto");
 		
-		moto1.marca = "Honda";
-		moto1.motor = "125cc";
 		moto1.cor = "Preta";
 		moto1.modelo = "Titan";
 		moto1.estiloDeCombustivel = "Flex";
@@ -49,8 +51,10 @@ public class TesteConcessionaria {
 		carroConstrutor.desacelerar(20);
 		carroConstrutor.parar();
 		
+		System.out.println();
 		
-		
+		MotoComConstrutor moto2 = new MotoComConstrutor("Vermelha", "CG125");
+		System.out.println(moto2.toString());
 	}
 
 }
