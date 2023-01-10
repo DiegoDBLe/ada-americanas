@@ -43,6 +43,6 @@ public class Moto{
 		return "Motor: " + this.motor + "\nNúmero de rodas: " + this.numeroDeRodas + "\nAno de Fabricação: "
 				+ this.anoDeFabricaao + "\nCor: " + this.cor + "\nMarca: " + this.marca + "\nModelo: "
 				+ this.modelo + "\nCombustivel: " + this.estiloDeCombustivel + "\nPreço R$ " + this.preco 
-				+ "\\nVelocidade Máxima: " + this.velocidadeMaxima;
+				+ "\nVelocidade Máxima: " + this.velocidadeMaxima;
 	}
 }

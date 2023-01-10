@@ -9,6 +9,17 @@ public class TestVisibilidade {
 		carroVisibilidade1.setAnoDeFabricaao(2019);
 		carroVisibilidade1.setCor("Preto");
 		System.out.println(carroVisibilidade1.toString());
+
+		System.out.println("--=-=-=-=-=-=-=-=-================");
+
+		MotoVisibilidade motoVisibilidade  = new MotoVisibilidade("125cc", 2, 2023,
+				"Vermelha", "Honda", "CB-500", "FLEX", 15_000.00,
+				300,0 );
+		motoVisibilidade.setAnoDeFabricaao(2023);
+		motoVisibilidade.setCor("Preto");
+		motoVisibilidade.setNumeroDeRodas(2);
+		motoVisibilidade.setPreco(1000.00);
+		System.out.println(motoVisibilidade.toString());
 		
 		
 	}
