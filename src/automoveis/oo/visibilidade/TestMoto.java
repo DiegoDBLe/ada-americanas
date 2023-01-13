@@ -1,5 +1,7 @@
 package automoveis.oo.visibilidade;
 
+import automoveis.oo.visibilidade.modelo.MotoVisibilidade;
+
 public class TestMoto {
 
     public static void main(String[] args) {

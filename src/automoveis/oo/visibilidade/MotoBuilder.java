@@ -1,5 +1,7 @@
 package automoveis.oo.visibilidade;
 
+import automoveis.oo.visibilidade.modelo.MotoVisibilidade;
+
 public class MotoBuilder {
 
     private String motor;

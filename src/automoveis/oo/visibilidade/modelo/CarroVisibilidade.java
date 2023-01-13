@@ -1,4 +1,4 @@
-package automoveis.oo.visibilidade;
+package automoveis.oo.visibilidade.modelo;
 
 public class CarroVisibilidade{
 
