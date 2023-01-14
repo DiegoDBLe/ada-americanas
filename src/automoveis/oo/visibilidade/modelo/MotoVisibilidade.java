@@ -1,5 +1,7 @@
 package automoveis.oo.visibilidade.modelo;
 
+import automoveis.oo.visibilidade.MotoBuilder;
+
 public class MotoVisibilidade {
     private String motor;
     private int numeroDeRodas;
@@ -12,8 +14,14 @@ public class MotoVisibilidade {
     private int velocidadeMaxima;
     private int velocidadeAtual;
 
+    private static int quantidadeMotosCriadas;
+
     public MotoVisibilidade(String motor, int numeroDeRodas, int anoDeFabricaao, String cor, String marca,
                             String modelo, String estiloDeCombustivel, double preco, int velocidadeMaxima, int velocidadeAtual) {
+
+        MotoVisibilidade.quantidadeMotosCriadas++;
+        System.out.println("Moto criada de número: " + MotoVisibilidade.quantidadeMotosCriadas);
+
         this.motor = motor;
         this.numeroDeRodas = numeroDeRodas;
         this.anoDeFabricaao = anoDeFabricaao;

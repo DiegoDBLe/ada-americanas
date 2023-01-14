@@ -2,7 +2,6 @@ package automoveis.oo.semconstrutor;
 
 public class Moto{
 	
-	
 	public String motor;
 	public int numeroDeRodas;
 	public int anoDeFabricaao;

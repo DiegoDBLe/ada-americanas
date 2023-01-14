@@ -14,9 +14,12 @@ public class MotoBuilder {
     private double preco;
     private int velocidadeMaxima;
     private int velocidadeAtual;
-
+    private static int quantidadeMotosCriadas;
 
     public MotoBuilder motor(String motor) {
+        MotoBuilder.quantidadeMotosCriadas++;
+        System.out.println("Moto criada de número: " + MotoBuilder.quantidadeMotosCriadas);
+
         this.motor = motor;
         return this;
     }
