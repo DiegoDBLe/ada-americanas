@@ -1,7 +1,11 @@
 package automoveis.oo.visibilidade.modelo;
 
 import automoveis.oo.visibilidade.MotoBuilder;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class MotoVisibilidade {
     private String motor;
     private int numeroDeRodas;
@@ -71,83 +75,83 @@ public class MotoVisibilidade {
                 + "\nVelocidade Máxima: " + this.velocidadeMaxima;
     }
 
-    public String getMotor() {
-        return motor;
-    }
-
-    public void setMotor(String motor) {
-        this.motor = motor;
-    }
-
-    public int getNumeroDeRodas() {
-        return numeroDeRodas;
-    }
-
-    public void setNumeroDeRodas(int numeroDeRodas) {
-        this.numeroDeRodas = numeroDeRodas;
-    }
-
-    public int getAnoDeFabricaao() {
-        return anoDeFabricaao;
-    }
-
-    public void setAnoDeFabricaao(int anoDeFabricaao) {
-        this.anoDeFabricaao = anoDeFabricaao;
-    }
-
-    public String getCor() {
-        return cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public String getEstiloDeCombustivel() {
-        return estiloDeCombustivel;
-    }
-
-    public void setEstiloDeCombustivel(String estiloDeCombustivel) {
-        this.estiloDeCombustivel = estiloDeCombustivel;
-    }
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
-
-    public int getVelocidadeMaxima() {
-        return velocidadeMaxima;
-    }
-
-    public void setVelocidadeMaxima(int velocidadeMaxima) {
-        this.velocidadeMaxima = velocidadeMaxima;
-    }
-
-    public int getVelocidadeAtual() {
-        return velocidadeAtual;
-    }
-
-    public void setVelocidadeAtual(int velocidadeAtual) {
-        this.velocidadeAtual = velocidadeAtual;
-    }
+//    public String getMotor() {
+//        return motor;
+//    }
+//
+//    public void setMotor(String motor) {
+//        this.motor = motor;
+//    }
+//
+//    public int getNumeroDeRodas() {
+//        return numeroDeRodas;
+//    }
+//
+//    public void setNumeroDeRodas(int numeroDeRodas) {
+//        this.numeroDeRodas = numeroDeRodas;
+//    }
+//
+//    public int getAnoDeFabricaao() {
+//        return anoDeFabricaao;
+//    }
+//
+//    public void setAnoDeFabricaao(int anoDeFabricaao) {
+//        this.anoDeFabricaao = anoDeFabricaao;
+//    }
+//
+//    public String getCor() {
+//        return cor;
+//    }
+//
+//    public void setCor(String cor) {
+//        this.cor = cor;
+//    }
+//
+//    public String getMarca() {
+//        return marca;
+//    }
+//
+//    public void setMarca(String marca) {
+//        this.marca = marca;
+//    }
+//
+//    public String getModelo() {
+//        return modelo;
+//    }
+//
+//    public void setModelo(String modelo) {
+//        this.modelo = modelo;
+//    }
+//
+//    public String getEstiloDeCombustivel() {
+//        return estiloDeCombustivel;
+//    }
+//
+//    public void setEstiloDeCombustivel(String estiloDeCombustivel) {
+//        this.estiloDeCombustivel = estiloDeCombustivel;
+//    }
+//
+//    public double getPreco() {
+//        return preco;
+//    }
+//
+//    public void setPreco(double preco) {
+//        this.preco = preco;
+//    }
+//
+//    public int getVelocidadeMaxima() {
+//        return velocidadeMaxima;
+//    }
+//
+//    public void setVelocidadeMaxima(int velocidadeMaxima) {
+//        this.velocidadeMaxima = velocidadeMaxima;
+//    }
+//
+//    public int getVelocidadeAtual() {
+//        return velocidadeAtual;
+//    }
+//
+//    public void setVelocidadeAtual(int velocidadeAtual) {
+//        this.velocidadeAtual = velocidadeAtual;
+//    }
 }
