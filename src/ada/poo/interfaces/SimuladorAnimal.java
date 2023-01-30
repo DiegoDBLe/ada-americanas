@@ -1,9 +1,6 @@
 package ada.poo.interfaces;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class SimuladorAnimal {
 
@@ -61,6 +58,15 @@ public class SimuladorAnimal {
             System.out.println("Especie: " + animal.getEspecie() + " - Peso: " + animal.getPeso() + "Kgs");
         }
 
+        System.out.println("Ordenando por comparator: ");
+        Collections.sort(listaAnimais, new Comparator<Animal>() {
+            @Override
+            public int compare(Animal animal1, Animal animal2) {
+                return animal1.getEspecie().compareTo(animal2.getEspecie());
+            }
+        });
+        System.out.println(listaAnimais);
+        System.out.println("- - - - - Fim Do comparator - - - - - ");
 
         for (Animal animal: listaAnimais) {
         if (animal instanceof AnimalQueNada animalQueNada) {
