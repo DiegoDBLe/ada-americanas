@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public abstract class Animal implements Comparable<Animal>{
+public class Animal implements Comparable<Animal>{
 
     private int numeroDeOlhos;
     private double peso;
@@ -27,5 +27,4 @@ public abstract class Animal implements Comparable<Animal>{
             return -1;
         }
     }
-
 }
