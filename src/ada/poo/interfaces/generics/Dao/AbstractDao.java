@@ -1,4 +1,6 @@
-package ada.poo.interfaces.generics;
+package ada.poo.interfaces.generics.Dao;
+
+import ada.poo.interfaces.generics.DAO;
 
 public class AbstractDao<T, K> implements DAO<T, K> {
 

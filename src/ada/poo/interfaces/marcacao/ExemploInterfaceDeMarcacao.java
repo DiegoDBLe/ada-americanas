@@ -1,25 +1,29 @@
 package ada.poo.interfaces.marcacao;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ExemploInterfaceDeMarcacao {
 
     public static void main(String[] args) {
 
-        List<Ave> aves = new ArrayList<>();
+        List animais = Arrays.asList(new Ornitorrinco(), new Papagaio(), new Tucano());
 
-        aves.add(new Pardal());
-        aves.add(new Tucano());
+        for (Object animal: animais) {
+
+            String className = animal.getClass().getSimpleName();
+
+            if(isAve(animal)){
+                System.out.println("O animal " + className + " é uma Ave e pode voar!");
+            }else{
+                System.out.println("O animal " + className + "não é uma Ave e não pode voar!");
+            }
+        }
 
     }
 
-    public static void voar(Object object){
+    public static boolean isAve(Object object){
 
-        if(object instanceof Ave ave){
-            System.out.println(" A ave " + ave.getClass().getSimpleName() + "ave sabe voar");
-        }else{
-            System.out.println("" + object.getClass().getSimpleName() + "não sabe voar");
-        }
+        return object instanceof Ave;
     }
 }
