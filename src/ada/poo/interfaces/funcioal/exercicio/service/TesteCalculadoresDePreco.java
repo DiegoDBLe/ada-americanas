@@ -6,12 +6,24 @@ public class TesteCalculadoresDePreco {
 
     public static void main(String[] args) {
 
-        CalculadoraDeFrete calculadoraDeFrete = new CalculadoraDeFrete();
+        CalculadoraDeFreteCorreios calculadoraDeFreteCorreios = new CalculadoraDeFreteCorreios();
 
-        Produto produto = new Produto(1_000.0, 1.0);
+        CalculadoraDePreco calculadoraDePreco1 = new CalculadoraDePreco(calculadoraDeFreteCorreios, new CalculadoraDeDescontoBlackFriday());
+        CalculadoraDePreco calculadoraDePreco11 = new CalculadoraDePreco(calculadoraDeFreteCorreios, new CalculadoraDeDescontoProgressivo());
 
-       Double precoFrete = calculadoraDeFrete.calcularFrete(produto, 30.5);
-        System.out.println("Preço do Frete: " + precoFrete);
+//        CalculadoraDePreco calculadoraDePreco2 = new CalculadoraDePreco(new CalculadoraDeFreteTransportadora(), new CalculadoraDeDescontoBlackFriday());
+
+
+
+
+        Produto produto = new Produto(100.0, 10.00);
+        Double km = 10.00;
+
+        System.out.println("Preco com a calculadora 1");
+        System.out.println(calculadoraDePreco1.calcular(produto, km));
+
+        System.out.println("Preco com a calculadora 2");
+        System.out.println(calculadoraDePreco11.calcular(produto, km));
 
     }
 }

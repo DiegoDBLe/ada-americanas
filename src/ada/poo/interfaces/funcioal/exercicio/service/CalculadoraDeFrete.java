@@ -2,9 +2,7 @@ package ada.poo.interfaces.funcioal.exercicio.service;
 
 import ada.poo.interfaces.funcioal.exercicio.model.Produto;
 
-public class CalculadoraDeFrete {
+public interface CalculadoraDeFrete {
 
-    public Double calcularFrete(Produto  produto, Double km) {
-        return produto.getPeso() * km * 0.5;
-    }
+    Double calcular(Produto produto, Double km);
 }
