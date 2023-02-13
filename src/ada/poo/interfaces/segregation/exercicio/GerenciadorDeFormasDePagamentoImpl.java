@@ -7,7 +7,7 @@ public class GerenciadorDeFormasDePagamentoImpl implements GerenciadoDeFormasDeP
 
     private final List<FormaDePagamento> formasDePagamento;
 
-    public GerenciadorDeFormasDePagamentoImpl(List<FormaDePagamento> formasDePagamento) {
+    public  GerenciadorDeFormasDePagamentoImpl(List<FormaDePagamento> formasDePagamento) {
         this.formasDePagamento = formasDePagamento;
     }
 

@@ -7,6 +7,7 @@ public class TesteMeioDePagamento {
 
     ExibidorDeFormaDePagamentosImplemts exibidorDeFormaDePagamentos = new ExibidorDeFormaDePagamentosImplemts();
     SeletorDeFormaDeFormaDePagamentoImplements seletorDeFormaDeFormaDePagamento = new SeletorDeFormaDeFormaDePagamentoImplements();
+
     GerenciadoDeFormasDePagamento gerenciadoQrCode = new GerenciadorDeFormasDePagamentoImpl(Arrays
             .asList(new PagamentoQrCode(), new PagamentoDinheiro()));
 
